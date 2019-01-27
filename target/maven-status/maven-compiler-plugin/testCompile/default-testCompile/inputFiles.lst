@@ -1,0 +1,7 @@
+/home/mateus/Documents/workspace/interview/robot/src/test/java/com/idealo/robot/RobotApplicationTests.java
+/home/mateus/Documents/workspace/interview/robot/src/test/java/com/idealo/robot/controller/RobotControlTestController.java
+/home/mateus/Documents/workspace/interview/robot/src/test/java/com/idealo/robot/service/impl/RobotControlServiceTest.java
+/home/mateus/Documents/workspace/interview/robot/src/test/java/com/idealo/robot/service/impl/RightCommandTest.java
+/home/mateus/Documents/workspace/interview/robot/src/test/java/com/idealo/robot/service/impl/LeftCommandTest.java
+/home/mateus/Documents/workspace/interview/robot/src/test/java/com/idealo/robot/service/impl/ForwardCommandTest.java
+/home/mateus/Documents/workspace/interview/robot/src/test/java/com/idealo/robot/service/impl/TurnAroundCommandTest.java

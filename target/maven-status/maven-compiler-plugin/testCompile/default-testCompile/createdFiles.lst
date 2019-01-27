@@ -1,0 +1,4 @@
+com/idealo/robot/service/impl/RobotControlServiceTest.class
+com/idealo/robot/service/impl/RightCommandTest.class
+com/idealo/robot/service/impl/LeftCommandTest.class
+com/idealo/robot/service/impl/TurnAroundCommandTest.class
