@@ -1,0 +1,5 @@
+
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¼ŒÌùÿÿÿÿ
+fsquid:S00100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ì“¢
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ò¼ŒÌùÿÿÿÿ
+^squid:S00112 "FDefine and throw a dedicated exception instead of using a generic one.(½Ì“¢
