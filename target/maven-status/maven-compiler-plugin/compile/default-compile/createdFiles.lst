@@ -3,6 +3,7 @@ com/idealo/robot/domain/Grid.class
 com/idealo/robot/service/RobotControlService.class
 com/idealo/robot/domain/enums/Command$1.class
 com/idealo/robot/service/impl/ForwardCommand$1.class
+com/idealo/robot/exception/ExceptionResponse.class
 com/idealo/robot/domain/Robot.class
 com/idealo/robot/domain/enums/Command$6.class
 com/idealo/robot/service/impl/ForwardCommand.class
@@ -20,6 +21,7 @@ com/idealo/robot/service/impl/TurnAroundCommand.class
 com/idealo/robot/domain/enums/Direction.class
 com/idealo/robot/service/impl/LeftCommand.class
 com/idealo/robot/service/impl/PositionCommand.class
+com/idealo/robot/exception/RestExceptionHandler.class
 com/idealo/robot/exception/BusinessException.class
 com/idealo/robot/domain/enums/Command$4.class
 com/idealo/robot/RobotApplication.class
