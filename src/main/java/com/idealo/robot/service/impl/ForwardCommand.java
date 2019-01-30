@@ -18,7 +18,7 @@ public class ForwardCommand implements CommandService {
             try {
                 this.setRobotNewGrid(robot);
             } catch (BusinessException e) {
-                e.printStackTrace();
+                throw new BusinessException("Robot missing");
             }
         });
     }
@@ -42,7 +42,7 @@ public class ForwardCommand implements CommandService {
                 break;
         }
 
-        robot.setGrid(new Grid(x,y));
+        robot.setGrid(new Grid(x, y));
     }
 
 }

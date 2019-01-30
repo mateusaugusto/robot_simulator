@@ -13,12 +13,7 @@ public class WaitCommand implements CommandService {
 
     @Override
     public void applyCommand(String[] command, Robot robot) {
-        log.info("just wating 1 second");
-        try {
-            TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        log.info("do nothing");
     }
 
 }

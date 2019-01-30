@@ -2,105 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0648ec53-72d1-48f9-9f40-172bec837c8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front_end/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6dd2c83ce4728d1a57d6e485c4d7a7cd0d0ca879" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b456c8411e33701abc143cfa996f38bc3affb5ae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6f267b0d2beeb02d10d6c29c7ab5bf2087bd933" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/idealo/robot/exception/ExceptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/idealo/robot/exception/RestExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/robot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/RobotApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/controller/RobotControlController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/domain/ControlCommands.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/domain/Grid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/domain/Robot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/domain/enums/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/domain/enums/Direction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/exception/BusinessException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/service/CommandService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/service/RobotControlService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/service/impl/ForwardCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/service/impl/LeftCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/service/impl/PositionCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/service/impl/RightCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/service/impl/RobotControlServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/service/impl/TurnAroundCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/idealo/robot/service/impl/WaitCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/idealo/robot/RobotApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/idealo/robot/controller/RobotControlTestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/idealo/robot/service/impl/ForwardCommandTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/idealo/robot/service/impl/LeftCommandTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/idealo/robot/service/impl/RightCommandTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/idealo/robot/service/impl/RobotControlServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/com/idealo/robot/service/impl/TurnAroundCommandTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/RobotApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/controller/RobotControlController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/domain/ControlCommands.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/domain/Grid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/domain/Robot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/domain/enums/Command$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/domain/enums/Command$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/domain/enums/Command$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/domain/enums/Command$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/domain/enums/Command$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/domain/enums/Command$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/domain/enums/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/domain/enums/Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/exception/BusinessException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/service/CommandService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/service/RobotControlService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/service/impl/ForwardCommand$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/service/impl/ForwardCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/service/impl/LeftCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/service/impl/PositionCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/service/impl/RightCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/service/impl/RobotControlServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/service/impl/TurnAroundCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/idealo/robot/service/impl/WaitCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/TEST-com.idealo.robot.RobotApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/TEST-com.idealo.robot.service.LeftCommandTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/TEST-com.idealo.robot.service.RightCommandTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/TEST-com.idealo.robot.service.RobotControlServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/TEST-com.idealo.robot.service.TurnAroundCommandTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/TEST-com.idealo.robot.service.impl.ForwardCommandTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/TEST-com.idealo.robot.service.impl.LeftCommandTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/TEST-com.idealo.robot.service.impl.RightCommandTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/TEST-com.idealo.robot.service.impl.RobotControlServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/TEST-com.idealo.robot.service.impl.TurnAroundCommandTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/com.idealo.robot.RobotApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/com.idealo.robot.service.LeftCommandTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/com.idealo.robot.service.RightCommandTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/com.idealo.robot.service.RobotControlServiceTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/com.idealo.robot.service.TurnAroundCommandTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/com.idealo.robot.service.impl.ForwardCommandTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/com.idealo.robot.service.impl.LeftCommandTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/com.idealo.robot.service.impl.RightCommandTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/com.idealo.robot.service.impl.RobotControlServiceTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/surefire-reports/com.idealo.robot.service.impl.TurnAroundCommandTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/test-classes/com/idealo/robot/RobotApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/test-classes/com/idealo/robot/controller/RobotControlTestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/test-classes/com/idealo/robot/service/impl/ForwardCommandTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/test-classes/com/idealo/robot/service/impl/LeftCommandTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/test-classes/com/idealo/robot/service/impl/RightCommandTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/test-classes/com/idealo/robot/service/impl/RobotControlServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/test-classes/com/idealo/robot/service/impl/TurnAroundCommandTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/images/delete.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/js/canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/idealo/robot/domain/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/idealo/robot/domain/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/idealo/robot/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/idealo/robot/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/idealo/robot/service/impl/ForwardCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/idealo/robot/service/impl/ForwardCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/idealo/robot/service/impl/WaitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/idealo/robot/service/impl/WaitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/idealo/robot/exception/BusinessException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/idealo/robot/exception/BusinessException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/idealo/robot/service/impl/ForwardCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/idealo/robot/service/impl/ForwardCommand.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,58 +47,59 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="3" />
           <entry key="css" value="1" />
-          <entry key="html" value="1" />
-          <entry key="java" value="1" />
-          <entry key="js" value="1" />
+          <entry key="html" value="3" />
+          <entry key="java" value="13" />
+          <entry key="js" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="3" />
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="1" />
-          <entry key="JAVA" value="1" />
-          <entry key="JavaScript" value="1" />
+          <entry key="HTML" value="3" />
+          <entry key="JAVA" value="13" />
+          <entry key="JavaScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="15" />
-          <entry key="html" value="565" />
-          <entry key="js" value="928" />
+          <entry key="html" value="731" />
+          <entry key="java" value="104" />
+          <entry key="js" value="1169" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="15" />
-          <entry key="HTML" value="565" />
-          <entry key="JavaScript" value="928" />
+          <entry key="HTML" value="731" />
+          <entry key="JAVA" value="104" />
+          <entry key="JavaScript" value="1169" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front_end/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="468">
+              <caret line="121" column="106" selection-start-line="121" selection-start-column="101" selection-end-line="121" selection-end-column="106" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front_end/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="103" column="68" selection-start-line="103" selection-start-column="68" selection-end-line="103" selection-end-column="68" />
+            <state relative-caret-position="576">
+              <caret line="92" column="69" selection-start-line="92" selection-start-column="69" selection-end-line="92" selection-end-column="69" />
               <folding>
-                <element signature="n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#2537#2543#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#7413#7419#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,22 +108,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/idealo/robot/domain/enums/Direction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front_end/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="136">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -218,6 +131,10 @@
       <find>tes</find>
       <find>Categories</find>
       <find>side</find>
+      <find>500</find>
+      <find>can</find>
+      <find>respo</find>
+      <find>==</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -226,9 +143,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front_end/index.html" />
         <option value="$PROJECT_DIR$/front_end/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idealo/robot/exception/BusinessException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idealo/robot/service/impl/ForwardCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idealo/robot/controller/RestExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idealo/robot/exception/ExceptionResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idealo/robot/exception/RestExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idealo/robot/service/impl/WaitCommand.java" />
         <option value="$PROJECT_DIR$/front_end/js/app.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/idealo/robot/domain/Grid.java" />
+        <option value="$PROJECT_DIR$/front_end/index.html" />
       </list>
     </option>
   </component>
@@ -239,7 +163,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1024" />
+    <option name="x" value="-4" />
+    <option name="width" value="1032" />
     <option name="height" value="1280" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -260,18 +185,6 @@
               <item name="robot" type="b2602c69:ProjectViewProjectNode" />
               <item name="robot_simulator" type="462c0819:PsiDirectoryNode" />
               <item name="front_end" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robot_simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="front_end" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robot_simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="front_end" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="robot" type="b2602c69:ProjectViewProjectNode" />
@@ -327,6 +240,25 @@
               <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robot_simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="robot" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robot_simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="robot" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -335,9 +267,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548807203953" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548855270098" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -377,45 +313,45 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9156000" />
+    <option name="totallyTimeSpent" value="12913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1032" height="1280" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.299389" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4052953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Floobits" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.29930797" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25259516" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" weight="0.3299389" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Floobits" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24949084" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3299389" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,32 +360,55 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/idealo/robot/exception/RestExceptionHandler.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/idealo/robot/domain/Grid.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/idealo/robot/domain/Grid.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/idealo/robot/domain/Grid.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>x &gt;= 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>maxXLimit &gt;= 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/idealo/robot/domain/enums/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front_end/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="103" column="68" selection-start-line="103" selection-start-column="68" selection-end-line="103" selection-end-column="68" />
-          <folding>
-            <element signature="n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#2537#2543#0" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#7413#7419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front_end/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -457,10 +416,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idealo/robot/service/impl/RobotControlServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="532" column="36" selection-start-line="532" selection-start-column="36" selection-end-line="532" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idealo/robot/RobotApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/http/HttpStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idealo/robot/exception/ExceptionResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idealo/robot/exception/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end/js/canvas.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idealo/robot/exception/RestExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idealo/robot/domain/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idealo/robot/domain/Grid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idealo/robot/service/impl/ForwardCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idealo/robot/service/impl/WaitCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front_end/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="468">
+          <caret line="121" column="106" selection-start-line="121" selection-start-column="101" selection-end-line="121" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/idealo/robot/domain/enums/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="92" column="69" selection-start-line="92" selection-start-column="69" selection-end-line="92" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

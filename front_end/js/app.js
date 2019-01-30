@@ -1,18 +1,23 @@
-var c_canvas;
-var context;
+'use strict';
+
+var c_canvas, context;
+
 
 function loadCanvasGRid(xd, yd, direction) {
     c_canvas = document.getElementById("c");
     context = c_canvas.getContext("2d");
 
+    var x;
 
-    for (var x = 0; x <= 600; x += 100) {
+    for (x = 0; x <= 600; x += 100) {
         context.moveTo(x, 0);
         context.lineTo(x, 600);
         buildFillTextInGrid(context, x, 1 * x + 40, 25);
     }
 
-    for (var y = 0; y <= 600; y += 100) {
+    var y;
+
+    for (y = 0; y <= 600; y += 100) {
         context.moveTo(0, y);
         context.lineTo(600, y);
         buildFillTextInGrid(context, y, 10, 1 * y + 30);
@@ -56,13 +61,27 @@ function resetCanvas() {
     context.clearRect(0, 0, 600, 600);
 }
 
+function displayResultInView(display) {
+    var link = document.getElementById('result');
+    link.style.display = display;
+}
 
-function buildResultInView(result) {
-    var parsedData = JSON.parse(result.responseText);
+function buildResultInViewSuccess(result) {
+    var parsedData = JSON.parse(result);
     document.getElementById("grid").innerHTML = '(' + parsedData.grid.x + ',' + parsedData.grid.y + ')';
     document.getElementById("direction").innerHTML = parsedData.direction;
-    var link = document.getElementById('result');
-    link.style.display = 'block'; //or
+    displayResultInView('block');
+}
+
+function displayAlertError(display) {
+    var link = document.getElementById('alertError');
+    link.style.display = display;
+}
+
+function buildResultInViewError() {
+    displayResultInView('none');
+    document.getElementById("errorMessage").innerHTML = "Invalid script for robot movement, limit in grid is 5 movements";
+    displayAlertError('block');
 }
 
 
@@ -78,35 +97,30 @@ function IsJsonString(str) {
 
 function sendScript(script) {
     if (!IsJsonString(script)) return false;
-
     resetCanvas();
+    displayAlertError('none');
 
     $.ajax({
             type: 'POST',
             url: 'http://localhost:8080/robot',
             contentType: 'application/json',
             data: script,
-            dataType: 'html',
-            complete: function (result) {
-                buildResultInView(result);
-            }
+            dataType: 'html'
         }
     ).done(function (result) {
         var obj = JSON.parse(result);
         loadCanvasGRid(obj.grid.x, obj.grid.y, obj.direction);
-
+        buildResultInViewSuccess(result);
     }).fail(function (err) {
-        console.log(err);
-
+        buildResultInViewError();
     });
 
     return false;
 }
 
 function init() {
-    var script = {"commands": ["POSITION 1 3 EAST", "FORWARD 3", "RIGHT", "RIGHT", "FORWARD 1", "RIGHT", "FORWARD 2"]};
+    var script = {"commands": ["POSITION 1 3 EAST", "FORWARD 3", "WAIT", "TURNAROUND", "FORWARD 1", "RIGHT", "FORWARD 2"]};
     document.getElementById("script").innerHTML = JSON.stringify(script, undefined, 2);
-    //Default robot position
     loadCanvasGRid(0, 0, 'SOUTH');
 }
 

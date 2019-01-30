@@ -19,22 +19,22 @@ public class Grid {
 
 
     public Grid(int x, int y) throws BusinessException {
-        if(!isValidXandY(x, y)){
+        if (!isValidXandY(x, y)) {
             throw new BusinessException("Grid out of limits");
         }
         this.x = x;
         this.y = y;
     }
 
-    private boolean isXValid(int x){
-        return x <= maxXLimit;
+    private boolean isXValid(int x) {
+        return x <= maxXLimit && x >= 0;
     }
 
-    private boolean isYValid(int y){
-        return y <= maxYLimit;
+    private boolean isYValid(int y) {
+        return y <= maxYLimit && y >= 0;
     }
 
-    private boolean isValidXandY(int x, int y){
+    private boolean isValidXandY(int x, int y) {
         return isXValid(x) && isYValid(y);
     }
 
