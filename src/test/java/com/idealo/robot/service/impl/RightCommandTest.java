@@ -17,7 +17,7 @@ public class RightCommandTest {
     private RightCommand service;
 
     @Test
-    public void should_right_north_to_east() throws Exception {
+    public void should_right_north_to_east() {
         String[] comand = {"NORTH"};
         Robot robot = new Robot();
         robot.setDirection(Direction.NORTH);
@@ -26,7 +26,7 @@ public class RightCommandTest {
     }
 
     @Test
-    public void should_right_2_north_till_west() throws Exception {
+    public void should_right_2_north_till_west() {
         String[] comand = {"NORTH"};
         Robot robot = new Robot();
         robot.setDirection(Direction.NORTH);

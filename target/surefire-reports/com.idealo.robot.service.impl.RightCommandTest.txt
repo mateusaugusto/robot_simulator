@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.idealo.robot.service.impl.RightCommandTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.01 s <<< FAILURE! - in com.idealo.robot.service.impl.RightCommandTest
+should_right_north_to_east(com.idealo.robot.service.impl.RightCommandTest)  Time elapsed: 0.006 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<EAST> but was:<null>
+	at com.idealo.robot.service.impl.RightCommandTest.should_right_north_to_east(RightCommandTest.java:25)
+
+should_right_2_north_till_west(com.idealo.robot.service.impl.RightCommandTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.idealo.robot.service.impl.RightCommandTest.should_right_2_north_till_west(RightCommandTest.java:34)
+
